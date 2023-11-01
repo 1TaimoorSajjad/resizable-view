@@ -1,0 +1,23 @@
+<div class="flex h-screen flex-col justify-between ">
+    <div class="w-[30%] p-4">
+        <!-- Main content here -->
+    </div>
+    <div class=" bg-gray-50 border-t  h-[220px] resizable  " id="resizable-sidebar">
+        <div class="flex justify-center">
+            <div class="h-wrap w-12 rounded-full flex justify-center   p-0 cursor-pointer "
+                (mousedown)="startResizing($event)">
+                <svg viewBox="0 0 24 -4" fill="none" class="h-8 w-8" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12h18" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+        </div>
+        <div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad sed dolorem id ipsa! Voluptatibus accusamus
+                voluptatem vel quod commodi labore veritatis. Accusamus rerum ab tempore, enim asperiores maiores
+                aliquid
+                voluptates?
+            </div>
+        </div>
+    </div>
+</div>
