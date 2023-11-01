@@ -20,6 +20,8 @@ export class ResizableSidebarComponent {
         if (this.isResizing) {
           const newHeight = initialHeight - (e.clientY - startY); // Subtract instead of add
           sidebar.style.height = newHeight + 'px';
+          //comment added
+
         }
       };
 
